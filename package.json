@@ -1,0 +1,47 @@
+{
+  "name": "ac-test",
+  "version": "1.0.0",
+  "description": "backend sample",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "fix": "tslint --project tsconfig.json --format stylish --fix",
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "test-coverage": "jest --coverage --maxWorkers=4"
+  },
+  "dependencies": {
+    "@hapi/boom": "^7.4.3",
+    "@hapi/hapi": "^18.3.2",
+    "@hapi/joi": "^15.1.1",
+    "@hapi/vision": "^5.5.3",
+    "@types/xml2js": "^0.4.5",
+    "got": "^9.6.0",
+    "rss-parser": "^3.7.2"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.7",
+    "@types/hapi__boom": "^7.4.1",
+    "@types/hapi__hapi": "^18.2.5",
+    "@types/hapi__joi": "^15.0.3",
+    "@types/hapi__vision": "^5.5.0",
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.2",
+    "@types/node-fetch": "^2.5.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.0.2",
+    "ts-mockito": "^2.4.2",
+    "ts-node": "^8.3.0",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3",
+    "typestrict": "^1.0.2"
+  },
+  "engines": {
+    "node": "v10.16.3"
+  },
+  "author": "perran",
+  "license": "MIT",
+  "repository": "git@github.com:perran/ac-test.git"
+}
